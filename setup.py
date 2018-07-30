@@ -2,11 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 	name="PyPITest",
-	version="0.1.0",
 	packages=["pypitest", "pypitest.foo"],
-	url="https://github.com/IVIEK0/PyPITest.git",
-	description="Test for PyPI",
-	install_requires=['setuptools'],
 	entry_points="""
 	[console_scripts]
 	sad = pypitest.sad:main
