@@ -10,5 +10,6 @@ setup(
 	entry_points="""
 	[console_scripts]
 	pypi = pypi.pypi:main
+	hoge = pypi.foo.hoge:main
 	""",
 )
