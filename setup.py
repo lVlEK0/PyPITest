@@ -8,7 +8,7 @@ setup(name="pypitest",
 	install_requires=['setuptools',],
 	entry_points={
 		'console_scripts': [
-			'sad = test.fuga:main'
+			'sad = test.test:main'
 		]
 	}
 )
