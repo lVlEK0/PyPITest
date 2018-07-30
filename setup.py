@@ -11,5 +11,6 @@ setup(
 	[console_scripts]
 	sad = pypi.sad:main
 	hoge = pypi.foo.hoge:main
+	testp = testp:main
 	""",
 )
