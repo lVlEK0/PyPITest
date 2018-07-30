@@ -7,7 +7,7 @@ setup(name="pypitest",
 	packages=find_packages(),
 	entry_points="""
 	[console_scripts]
-	happy = test.foo.hoge:main
+	happy = test\\foo.hoge:main
 	""",
 	)
 
