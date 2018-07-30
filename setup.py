@@ -8,7 +8,7 @@ setup(name="pypitest",
 	install_requires=['setuptools',],
 	entry_points={
 		'console_scripts': [
-			'happy = test.foo.hoge:main'
+			'happy = test.foo.hoge:main',
 			'sad = test.fuga:main'
 		]
 	}
