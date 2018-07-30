@@ -8,6 +8,7 @@ setup(name="pypitest",
 	entry_points="""
 	[console_scripts]
 	happy = test.foo.hoge:main
+	sad = test.fuga:main
 	""",
 	)
 
