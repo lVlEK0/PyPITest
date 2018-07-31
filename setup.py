@@ -9,7 +9,7 @@ setup(
     author_email = 'kaseyutaka.suffix@gmail.com',
     description = 'test for pip install git+',
     install_requires = ['setuptools'],
-	packages = ["pypitest", "pypitest.foo"],
+	packages = ["pypitest", "pypitest.foo", "pypitest.sad"],
 	entry_points = {
 		'console_scripts': [
 			'maniac = pypitest.sad.maniac:sub',
