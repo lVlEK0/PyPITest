@@ -12,7 +12,9 @@ setup(
 	packages = ["pypitest", "pypitest.foo"],
 	entry_points = {
 		'console_scripts': [
-			'sad = pypitest.sad:main',
+			'maniac = pypitest.sad.maniac:sub',
+			'maniacmv = pypitest.sad.maniac:mv'
+			'sad = pypitest.sad:kd',
 			'hoge = pypitest.foo.hoge:main'
 		]
 	}
