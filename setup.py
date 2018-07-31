@@ -13,7 +13,6 @@ setup(
 	entry_points = {
 		'console_scripts': [
 			'maniac = pypitest.sad.maniac:sub',
-			'maniacmv = pypitest.sad.maniac:mv'
 			'sad = pypitest.sad:kd',
 			'hoge = pypitest.foo.hoge:main'
 		]
