@@ -9,11 +9,10 @@ setup(
     author_email = 'kaseyutaka.suffix@gmail.com',
     description = 'test for pip install git+',
     install_requires = ['setuptools'],
-	packages = ["pypitest", "pypitest.foo"],
+	packages = ["pypitest"],
 	entry_points = {
 		'console_scripts': [
-			'sad = pypitest.sad:sad',
-			'hoge = pypitest.foo.hoge:main'
+			'pipupdate = pypitest.main:main',
 		]
 	}
 )
